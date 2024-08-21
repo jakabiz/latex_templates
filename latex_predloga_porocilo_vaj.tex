@@ -1,0 +1,68 @@
+\documentclass[12pt,a4paper,oneside,fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovene]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\graphicspath{ {./images/} }
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{nameref}
+\usepackage{titlesec}
+\usepackage{lscape} 
+\geometry{left=30mm,
+right=25mm,
+top=30mm,
+bottom=25mm}
+
+\urlstyle{same}
+
+
+
+\title{\bf{Predmet \\ Naslov \\ Vaja xx}}
+\author{Jaka Bizjak\\
+institucija}
+\date{\today} 
+
+\begin{document}
+
+\maketitle
+
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=.33\textwidth]{\signal1.png}
+%\caption{Graf $x(t)$ za signal 1, 2 in 3. \label{overflow}}
+%\end{figure}
+
+\begin{table}[ht!]
+\caption{Naslov preglednice} 
+\label{tab:naziv}
+\centering
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+& & & &  \\
+\hline 
+\hline
+& & & &  \\
+\hline
+& & & &  \\
+\hline
+& & & &  \\
+\hline 
+\end{tabular}
+\end{table}
+\cite{ZvarBaskovic2022, Hasan2023, Kamsek2021, DanishEnergyAgency, Tzamalis2011, AgencijaRepublikeSlovenijezaOkolje, Hervas-Zaragoza2022, Hwang2023, RisenEnergyco.Ltd., IEA2015, EuropeanEnvironmentAgency2023, IEA2015_1, IJSCEU2023}
+
+
+
+\bibliographystyle{IEEEtran_slo}
+	
+\bibliography{PTM_seminar_1.tex} %v primeru, da potrebujem reference, shranjene v datoteki References.tex
+
+\end{document}
